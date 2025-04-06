@@ -39,6 +39,7 @@
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.buttonSalir = new System.Windows.Forms.Button();
             this.buttonIngresarP = new System.Windows.Forms.Button();
+            this.buttonReporte = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,19 +136,30 @@
             // 
             // buttonIngresarP
             // 
-            this.buttonIngresarP.Location = new System.Drawing.Point(33, 293);
+            this.buttonIngresarP.Location = new System.Drawing.Point(65, 293);
             this.buttonIngresarP.Name = "buttonIngresarP";
-            this.buttonIngresarP.Size = new System.Drawing.Size(82, 55);
+            this.buttonIngresarP.Size = new System.Drawing.Size(96, 55);
             this.buttonIngresarP.TabIndex = 10;
             this.buttonIngresarP.Text = "Ingresar Propiedad";
             this.buttonIngresarP.UseVisualStyleBackColor = true;
             this.buttonIngresarP.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // buttonReporte
+            // 
+            this.buttonReporte.Location = new System.Drawing.Point(65, 354);
+            this.buttonReporte.Name = "buttonReporte";
+            this.buttonReporte.Size = new System.Drawing.Size(96, 55);
+            this.buttonReporte.TabIndex = 11;
+            this.buttonReporte.Text = "Ingresar a reporte";
+            this.buttonReporte.UseVisualStyleBackColor = true;
+            this.buttonReporte.Click += new System.EventHandler(this.buttonReporte_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonReporte);
             this.Controls.Add(this.buttonIngresarP);
             this.Controls.Add(this.buttonSalir);
             this.Controls.Add(this.buttonGuardar);
@@ -181,6 +193,7 @@
         private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.Button buttonSalir;
         private System.Windows.Forms.Button buttonIngresarP;
+        private System.Windows.Forms.Button buttonReporte;
     }
 }
 

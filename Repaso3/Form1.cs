@@ -57,5 +57,11 @@ namespace Repaso3
             Propiedades propiedad = new Propiedades();
             propiedad.Show();
         }
+
+        private void buttonReporte_Click(object sender, EventArgs e)
+        {
+            ReportePropiedad reportePropiedad = new ReportePropiedad();
+            reportePropiedad.Show();    
+        }
     }
 }
